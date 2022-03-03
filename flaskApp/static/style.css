@@ -1,23 +1,29 @@
 html {
   font-family: sans-serif;
-  background: #eee;
+  background: #d2c7a7;
   padding: 1rem;
 }
 
 body {
   max-width: 960px;
+  border-radius: 15px;
   margin: 0 auto;
   background: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
-  color: #377ba8;
+  font-family: 'Montserrat', sans-serif;
+  color: #F7f33;
   margin: 1rem 0;
 }
 
 a {
-  color: #377ba8;
+  color: #a8763e;
+}
+
+a:hover {
+  color: #694b28;
 }
 
 hr {
@@ -26,10 +32,11 @@ hr {
 }
 
 nav {
-  background: lightgray;
+  background: #F7f3e3;
   display: flex;
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 0.7rem;
+  border-radius: 15px;
 }
 
 nav h1 {
@@ -72,8 +79,8 @@ nav ul li a, nav ul li span, header .action {
 .flash {
   margin: 1em 0;
   padding: 1em;
-  background: #cae6f6;
-  border: 1px solid #377ba8;
+  background: #F7f3e3;
+  border: 1px solid #A1B5BA;
 }
 
 .post > header {
@@ -125,7 +132,7 @@ nav ul li a, nav ul li span, header .action {
 }
 
 input.danger {
-  color: #cc2f2e;
+  color: #6f1a07;
 }
 
 input[type=submit] {
